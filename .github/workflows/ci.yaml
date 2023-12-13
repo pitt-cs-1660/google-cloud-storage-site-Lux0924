@@ -20,7 +20,10 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
+          
+      - name: List contents of working directory
+        run: |
+          ls -l
       # build you static site here if needed
       # - id: 'build'
       #   name: 'Build'
