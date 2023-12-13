@@ -38,7 +38,7 @@ jobs:
         with:
           workload_identity_provider: 'projects/564830921192/locations/global/workloadIdentityPools/github2/providers/my-repo2'
           #workload_identity_provider: 'projects/143616246873/locations/global/workloadIdentityPools/pool-thingy/providers/<YOUR PROVIDER HERE>'
-          service_account: 'service-thingy@cs1660-project-407813.iam.gserviceaccount.com' 
+          service_account: 'my-service-account@cs1660-project-407813.iam.gserviceaccount.com' 
 
       # upload files to GCS
       - name: List contents of working directory
