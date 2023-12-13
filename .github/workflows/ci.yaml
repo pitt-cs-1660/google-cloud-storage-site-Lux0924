@@ -45,7 +45,7 @@ jobs:
       - id: 'upload-static-files'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
-          path: '.' # UPDATE THIS TO YOUR BUILD/FILES DIRECTORY
+          path: 'gha-creds-bc8d884653538206.json' # UPDATE THIS TO YOUR BUILD/FILES DIRECTORY
           destination: 'bucket1660' 
           parent: false
 
